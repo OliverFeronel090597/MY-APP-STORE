@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>queen_app_store.jpg</file>
+        <file>home.png</file>
+        <file>app.png</file>
+        <file>admin.png</file>
+        <file>logout.png</file>
+        <file>login.png</file>
+
+    </qresource>
+</RCC>

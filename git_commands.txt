@@ -1,0 +1,21 @@
+
+git init
+
+git remote add origin https://github.com/OliverFeronel090597/MY-APP-STORE.git
+
+git add .
+
+# sync file 1st once error in push
+    git pull origin main --allow-unrelated-histories
+
+    PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> git branch
+    * master
+    PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> git checkout master
+    
+    PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> git checkout -b main
+    Switched to a new branch 'main'
+    PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> git push origin main
+    Everything up-to-date
+    PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> 
+
+git push origin main

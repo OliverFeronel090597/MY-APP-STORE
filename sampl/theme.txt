@@ -1,0 +1,9 @@
+    def apply_theme(self):
+        self.setStyleSheet("""
+            QWidget { background-color: #2E2E2E; color: #FFFFFF; }
+            # QPushButton { background-color: #1f1f1f; color: #FFFFFF; border: 1px solid #FFFFFF; border-radius: 3px; }
+            # QComboBox, QTextEdit, QLabel { background-color: #1f1f1f; color: #FFFFFF; border: 1px solid #FFFFFF; border-radius: 3px; }
+            # QMenuBar { background-color: #1f1f1f; color: #FFFFFF; }
+            # QMenu { background-color: #2E2E2E; color: #FFFFFF; border: 1px solid #FFFFFF; }
+            # QLabel { border: 1px solid #FFFFFF; }
+        """)

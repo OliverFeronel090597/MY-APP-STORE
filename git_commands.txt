@@ -11,11 +11,17 @@ git add .
     PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> git branch
     * master
     PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> git checkout master
-    
+
     PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> git checkout -b main
     Switched to a new branch 'main'
     PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> git push origin main
     Everything up-to-date
     PS C:\Users\O.Feronel\OneDrive - ams OSRAM\Documents\PYTHON\MY_APP_STORE> 
 
+# if new file added stag it ex. git_commands.txt:                                                               
+    git add git_commands.txt
+    git commit -m "Updated git_commands.txt"
+
 git push origin main
+
+Everything is done maybe joke

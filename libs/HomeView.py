@@ -2,8 +2,8 @@ from PyQt6.QtWidgets import QWidget, QVBoxLayout, QLabel
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QPixmap, QPainter
 
-from libs.get_pc_details import get_hostname, get_user_login
-from libs.resources import *
+from libs.DeviceDetails import get_hostname, get_user_login
+from libs.IconResource import *
 
 class HomeView(QWidget):
     def __init__(self):

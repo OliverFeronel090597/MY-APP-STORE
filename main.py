@@ -6,16 +6,16 @@ from PyQt6.QtCore           import Qt
 from PyQt6.QtGui            import QIcon   
 import sys
 
-from libs.home_view         import HomeView
-from libs.app_view          import AppView
-from libs.admin_view        import AdminView
-from libs.side_bar_message  import TrayIcon
-from libs.custom_pushbutton import ImageButton
-from libs.admin_login       import AdminLogin
-from libs.database          import SQLite
-from libs.get_pc_details    import get_user_login
-from libs.resources         import *
-from libs.global_var        import admin_logined, admin_privilege
+from libs.HomeView         import HomeView
+from libs.AppView          import AppView
+from libs.AdminView        import AdminView
+from libs.NotificationPannel  import TrayIcon
+from libs.CustomPushbutton import ImageButton
+from libs.AdminLogin       import AdminLogin
+from libs.DatabaseConnection          import SQLite
+from libs.DeviceDetails    import get_user_login
+from libs.IconResource         import *
+from libs.GlobalVar        import admin_logined, admin_privilege
 
 class MainWindow(QMainWindow):
     def __init__(self):

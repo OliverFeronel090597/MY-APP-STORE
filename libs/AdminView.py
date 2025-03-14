@@ -1,8 +1,8 @@
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QPixmap, QPainter, QIcon
-from libs.global_var import admin_logined
-from libs.get_pc_details import get_user_login
+from libs.GlobalVar import admin_logined
+from libs.DeviceDetails import get_user_login
 
 class AdminView(QWidget):
     def __init__(self):

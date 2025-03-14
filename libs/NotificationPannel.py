@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QApplication, QSystemTrayIcon, QMenu
 from PyQt6.QtGui import QIcon, QAction
-from libs.resources import *
+from libs.IconResource import *
 
 
 class TrayIcon(QSystemTrayIcon):

@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets        import QTextEdit
 from PyQt6.QtGui            import QFont, QPainter, QPixmap
 from PyQt6.QtCore           import Qt
-from libs.resources         import *
+from libs.IconResource         import *
 
 class CustomQTextEdit(QTextEdit):
     def __init__(self, parent=None):

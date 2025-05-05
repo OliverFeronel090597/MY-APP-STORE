@@ -51,7 +51,6 @@ class MainWindow(QMainWindow):
         self.stacked_widget.addWidget(self.app_view)
         self.stacked_widget.addWidget(self.admin_view)
 
-
     def control_buttons_ui(self):
         self.function_buttons = QVBoxLayout()
         self.function_buttons.setAlignment(Qt.AlignmentFlag.AlignTop)
